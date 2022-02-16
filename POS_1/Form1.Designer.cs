@@ -37,8 +37,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -81,6 +81,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(294, 30);
             this.textBox1.TabIndex = 3;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -125,16 +126,6 @@
             this.panel1.Size = new System.Drawing.Size(321, 521);
             this.panel1.TabIndex = 7;
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Kristen ITC", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(65, 21);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(196, 33);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Welcome Back";
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -144,6 +135,16 @@
             this.label5.Size = new System.Drawing.Size(138, 23);
             this.label5.TabIndex = 1;
             this.label5.Text = "Point Of Sale";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Kristen ITC", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(65, 21);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(196, 33);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Welcome Back";
             // 
             // Form1
             // 
