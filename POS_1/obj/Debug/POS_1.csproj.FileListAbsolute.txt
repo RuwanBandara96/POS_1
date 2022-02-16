@@ -1,0 +1,10 @@
+D:\GroupProject\POS\POS_1\POS_1\bin\Debug\POS_1.exe.config
+D:\GroupProject\POS\POS_1\POS_1\bin\Debug\POS_1.exe
+D:\GroupProject\POS\POS_1\POS_1\bin\Debug\POS_1.pdb
+D:\GroupProject\POS\POS_1\POS_1\obj\Debug\POS_1.csprojAssemblyReference.cache
+D:\GroupProject\POS\POS_1\POS_1\obj\Debug\POS_1.Form1.resources
+D:\GroupProject\POS\POS_1\POS_1\obj\Debug\POS_1.Properties.Resources.resources
+D:\GroupProject\POS\POS_1\POS_1\obj\Debug\POS_1.csproj.GenerateResource.cache
+D:\GroupProject\POS\POS_1\POS_1\obj\Debug\POS_1.csproj.CoreCompileInputs.cache
+D:\GroupProject\POS\POS_1\POS_1\obj\Debug\POS_1.exe
+D:\GroupProject\POS\POS_1\POS_1\obj\Debug\POS_1.pdb
