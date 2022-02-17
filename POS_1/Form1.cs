@@ -28,6 +28,7 @@ namespace POS_1
 
         }
 
+<<<<<<< HEAD
         private void button1_Click(object sender, EventArgs e)
         {
             String username, password;
@@ -48,6 +49,10 @@ namespace POS_1
             {
                 MessageBox.Show(ex.Message);
             }
+=======
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+>>>>>>> Ruwan
 
         }
     }

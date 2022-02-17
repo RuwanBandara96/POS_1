@@ -85,6 +85,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(222, 26);
             this.textBox1.TabIndex = 3;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -149,10 +150,16 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Kristen ITC", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< HEAD
             this.label4.Location = new System.Drawing.Point(49, 17);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(158, 27);
+=======
+            this.label4.Location = new System.Drawing.Point(65, 21);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(196, 33);
+>>>>>>> Ruwan
             this.label4.TabIndex = 0;
             this.label4.Text = "Welcome Back";
             // 
