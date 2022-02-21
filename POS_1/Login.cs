@@ -12,11 +12,11 @@ using MySql.Data.MySqlClient;
 
 namespace POS_1
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
         private Connector connector;
         private Security security;
-        public Form1()
+        public Login()
         {
             InitializeComponent();
             connector = new Connector();
@@ -30,24 +30,26 @@ namespace POS_1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            String username, password;
-            username = textBox1.Text;
-            password = textBox2.Text;
+            /* String username, password;
+             username = textBox1.Text;
+             password = textBox2.Text;
 
-            try
-            {
-                User usr = connector.loginUser(username, password);
+             try
+             {
+                 User usr = connector.loginUser(username, password);
 
-                Properties.Settings.Default.userid = usr.id;
-                Properties.Settings.Default.userrole = usr.role;
+                 Properties.Settings.Default.userid = usr.id;
+                 Properties.Settings.Default.userrole = usr.role;
 
-                MessageBox.Show("Success");
+                 MessageBox.Show("Success");
 
-            }
-            catch(Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
+             }
+             catch(Exception ex)
+             {
+                 MessageBox.Show(ex.Message);
+             }*/
+            Dashboard dbx = new Dashboard();
+            dbx.Visible = true;
 
         }
     }
