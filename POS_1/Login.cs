@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml;
 using MySql.Data;
 using MySql.Data.MySqlClient;
 
@@ -19,8 +20,6 @@ namespace POS_1
         public Login()
         {
             InitializeComponent();
-            connector = new Connector();
-            security = new Security();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -30,6 +29,18 @@ namespace POS_1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            try
+            {
+                XmlReader xmlReader = XmlReader.Create("Connections.xml");
+                while (xmlReader.Read())
+                {
+                    String nodeName = xmlReader.Name;
+                    String value = xmlReader.GetValueAsync();
+                }
+            }catch(Exception ex)
+            {
+                //
+            }
             /* String username, password;
              username = textBox1.Text;
              password = textBox2.Text;
@@ -51,6 +62,11 @@ namespace POS_1
             Dashboard dbx = new Dashboard();
             dbx.Visible = true;
 
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+            security = new Security();
         }
     }
 }
