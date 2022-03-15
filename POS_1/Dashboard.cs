@@ -24,6 +24,7 @@ namespace POS_1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            panel3.Controls.Clear();
             Items itm = new Items();
             itm.Dock = DockStyle.Fill;
             panel3.Controls.Add(itm);
@@ -32,6 +33,14 @@ namespace POS_1
         private void button1_MouseHover(object sender, EventArgs e)
         {
             button1.Cursor = Cursors.Hand;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            panel3.Controls.Clear();
+            AddItems additm = new AddItems();
+            additm.Dock = DockStyle.Fill;
+            panel3.Controls.Add(additm);
         }
     }
 }

@@ -61,3 +61,6 @@ D:\GroupProject\POS\POS_1\obj\Debug\POS_1.Dashboard.resources
 D:\GroupProject\POS\POS_1\obj\Debug\POS_1.Login.resources
 D:\GroupProject\POS\POS_1\obj\Debug\POS_1.Items.resources
 D:\GroupProject\POS\POS_1\obj\Debug\POS_1.ItemsCard.resources
+D:\GroupProject\POS\POS_1\obj\Debug\POS_1.AddItems.resources
+D:\GroupProject\POS\POS_1\obj\Debug\POS_1.SingleItem.resources
+D:\GroupProject\POS\POS_1\obj\Debug\POS_1.Container.resources
