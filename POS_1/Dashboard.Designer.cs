@@ -56,11 +56,7 @@
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
-<<<<<<< HEAD
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-=======
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
->>>>>>> gayantha
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(345, 826);
             this.panel1.TabIndex = 0;
@@ -70,16 +66,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-<<<<<<< HEAD
             this.label2.Location = new System.Drawing.Point(53, 780);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(203, 31);
-=======
-            this.label2.Location = new System.Drawing.Point(40, 634);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(160, 25);
->>>>>>> gayantha
             this.label2.TabIndex = 7;
             this.label2.Text = "@RA Creations";
             // 
@@ -92,24 +82,14 @@
             this.button6.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.Color.White;
             this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-<<<<<<< HEAD
             this.button6.Location = new System.Drawing.Point(3, 639);
             this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-=======
-            this.button6.Location = new System.Drawing.Point(2, 519);
-            this.button6.Margin = new System.Windows.Forms.Padding(2);
->>>>>>> gayantha
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(343, 87);
             this.button6.TabIndex = 6;
             this.button6.Text = "Log Out";
             this.button6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button6.UseVisualStyleBackColor = false;
-<<<<<<< HEAD
-=======
-            this.button6.UseWaitCursor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
->>>>>>> gayantha
             // 
             // button5
             // 
@@ -120,24 +100,14 @@
             this.button5.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-<<<<<<< HEAD
             this.button5.Location = new System.Drawing.Point(3, 540);
             this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-=======
-            this.button5.Location = new System.Drawing.Point(2, 439);
-            this.button5.Margin = new System.Windows.Forms.Padding(2);
->>>>>>> gayantha
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(343, 94);
             this.button5.TabIndex = 5;
             this.button5.Text = "Settings";
             this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button5.UseVisualStyleBackColor = false;
-<<<<<<< HEAD
-=======
-            this.button5.UseWaitCursor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
->>>>>>> gayantha
             // 
             // button4
             // 
@@ -148,13 +118,8 @@
             this.button4.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-<<<<<<< HEAD
             this.button4.Location = new System.Drawing.Point(3, 437);
             this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-=======
-            this.button4.Location = new System.Drawing.Point(2, 355);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
->>>>>>> gayantha
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(340, 85);
             this.button4.TabIndex = 4;
@@ -172,13 +137,8 @@
             this.button3.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-<<<<<<< HEAD
             this.button3.Location = new System.Drawing.Point(3, 324);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-=======
-            this.button3.Location = new System.Drawing.Point(2, 263);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
->>>>>>> gayantha
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(343, 89);
             this.button3.TabIndex = 3;
@@ -195,23 +155,15 @@
             this.button2.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-<<<<<<< HEAD
             this.button2.Location = new System.Drawing.Point(3, 213);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-=======
-            this.button2.Location = new System.Drawing.Point(2, 173);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
->>>>>>> gayantha
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(343, 89);
             this.button2.TabIndex = 2;
             this.button2.Text = "Add Items";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button2.UseVisualStyleBackColor = false;
-<<<<<<< HEAD
             this.button2.Click += new System.EventHandler(this.button2_Click);
-=======
->>>>>>> gayantha
             // 
             // button1
             // 
@@ -222,13 +174,8 @@
             this.button1.Font = new System.Drawing.Font("Georgia", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-<<<<<<< HEAD
             this.button1.Location = new System.Drawing.Point(3, 110);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-=======
-            this.button1.Location = new System.Drawing.Point(2, 89);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
->>>>>>> gayantha
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(343, 98);
             this.button1.TabIndex = 1;
@@ -270,11 +217,7 @@
             this.ClientSize = new System.Drawing.Size(1027, 826);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
-<<<<<<< HEAD
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-=======
-            this.Margin = new System.Windows.Forms.Padding(2);
->>>>>>> gayantha
             this.Name = "Dashboard";
             this.Text = "Dashboard";
             this.Load += new System.EventHandler(this.Dashboard_Load);

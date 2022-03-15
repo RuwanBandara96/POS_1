@@ -71,3 +71,6 @@ D:\vs\POS\POS_1\obj\Debug\POS_1.ItemsCard.resources
 D:\vs\POS\POS_1\obj\Debug\POS_1.Login.resources
 D:\vs\POS\POS_1\obj\Debug\POS_1.SettingsControl.resources
 >>>>>>> gayantha
+D:\vs\POS\POS_1\obj\Debug\POS_1.Container.resources
+D:\vs\POS\POS_1\obj\Debug\POS_1.AddItems.resources
+D:\vs\POS\POS_1\obj\Debug\POS_1.SingleItem.resources
