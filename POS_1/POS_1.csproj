@@ -90,6 +90,7 @@
       <DependentUpon>Configure.cs</DependentUpon>
     </Compile>
     <Compile Include="Security.cs" />
+<<<<<<< HEAD
     <Compile Include="AddItems.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -102,6 +103,15 @@
     <Compile Include="SingleItem.Designer.cs">
       <DependentUpon>SingleItem.cs</DependentUpon>
     </Compile>
+=======
+    <Compile Include="SettingsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SettingsControl.Designer.cs">
+      <DependentUpon>SettingsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XMLSetitngsReader.cs" />
+>>>>>>> gayantha
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
@@ -129,11 +139,16 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <EmbeddedResource Include="AddItems.resx">
       <DependentUpon>AddItems.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SingleItem.resx">
       <DependentUpon>SingleItem.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="SettingsControl.resx">
+      <DependentUpon>SettingsControl.cs</DependentUpon>
+>>>>>>> gayantha
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

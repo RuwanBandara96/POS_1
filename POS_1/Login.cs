@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml;
 using MySql.Data;
 using MySql.Data.MySqlClient;
 
@@ -16,11 +17,13 @@ namespace POS_1
     {
         private Connector connector;
         private Security security;
+        XMLSetitngsReader xsr;
         public Login()
         {
             InitializeComponent();
-            connector = new Connector();
-            security = new Security();
+            xsr = new XMLSetitngsReader();
+            //xsr.InsertItem("database", "hello_db");
+            //xsr.InsertItem("code", "dont oknow");
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -30,7 +33,9 @@ namespace POS_1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            /* String username, password;
+            //
+            connector = new Connector();
+             String username, password;
              username = textBox1.Text;
              password = textBox2.Text;
 
@@ -38,19 +43,21 @@ namespace POS_1
              {
                  User usr = connector.loginUser(username, password);
 
-                 Properties.Settings.Default.userid = usr.id;
-                 Properties.Settings.Default.userrole = usr.role;
-
-                 MessageBox.Show("Success");
-
-             }
+                Properties.Settings.Default.userid = usr.id;
+                Properties.Settings.Default.userrole = usr.role;
+                Dashboard dbx = new Dashboard();
+                dbx.Visible = true;
+                this.Visible = false;
+            }
              catch(Exception ex)
              {
                  MessageBox.Show(ex.Message);
-             }*/
-            Dashboard dbx = new Dashboard();
-            dbx.Visible = true;
+             }
+        }
 
+        private void Login_Load(object sender, EventArgs e)
+        {
+            security = new Security();
         }
     }
 }
