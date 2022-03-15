@@ -12,12 +12,36 @@ namespace POS_1
     {
         private MySqlConnection connection;
         private Security security;
+        XMLSetitngsReader xsr;
 
         public Connector()
         {
-            String conn_str = "server=localhost;port=3306;username=root;password=gayanu.amb;database=cs_test";
+            xsr = new XMLSetitngsReader();
+            String db_server = xsr.ReadValue("db_server");
+            String db_port = xsr.ReadValue("db_port");
+            String db_user = xsr.ReadValue("db_user");
+            String db_password = xsr.ReadValue("db_password");
+            String db_db = xsr.ReadValue("db_name");//anjana vakil
+            String conn_str = "server="+db_server+";port="+db_port+";username="+db_user+";password="+db_password+";database="+db_db;
             connection = new MySqlConnection(conn_str);
             security = new Security();
+        }
+
+        public void createDatabase()
+        {
+            try
+            {
+                String sql1 = "create table if not exists users (id integer unsigned not null primary key auto_increment,username varchar(200) not null,password varchar(200) not null,role varchar(200) not null)";
+                String sql2 = "create table if not exists items (id integer unsigned not null primary key auto_increment,code varchar(100) not null, name varchar(200) not null,quantity decimal(18,3) not null,price decimal(18,2) not null)";
+                connection.Open();
+                MySqlCommand cmd = new MySqlCommand(sql1, connection);
+                cmd.ExecuteNonQuery();
+                MySqlCommand cmd2 = new MySqlCommand(sql2, connection);
+                cmd2.ExecuteNonQuery();
+            }catch(Exception ex)
+            {
+                throw ex;
+            }
         }
 
         public User loginUser(String username,String password)
